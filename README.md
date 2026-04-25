@@ -4,14 +4,21 @@ The objective is to classify whether the stock closing price will increase or de
 
 The project compares four classical machine learning models:
 
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
-Logistic Regression
-Random Forest
+-Support Vector Machine (SVM - Linear)
+- K-Nearest Neighbors (KNN)
+- Logistic Regression
+- Random Forest
+
+Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score (Primary metric)  
+- ROC Curve  
 
 Since stock markets are highly influenced by the Efficient Market Hypothesis (EMH), achieving extremely high accuracy is unrealistic. Therefore, this project uses F1 Score as the primary evaluation metric instead of raw accuracy.
 
-Random Forest emerged as the best-performing model due to its ability to handle noisy financial data using ensemble learning.
+ KNN and Random Forest emerged as the best-performing model due to its ability to handle noisy financial data using ensemble learning.
 
 This project also includes:
 Feature Engineering
@@ -21,5 +28,21 @@ Confusion Matrix Visualization
 Model Performance Comparison
 All-Company Final Comparison
 Next-Day Stock Movement Prediction
+
+Contribution
+This project was collaboratively developed with @muskansancheti.
+I contributed to:
+Implemented Support Vector Machine (SVM - Linear) model
+Implemented K-Nearest Neighbors (KNN) model
+Performed model training and evaluation
+Compared performance using F1-score and other metrics
+Assisted in result analysis and model comparison
+
+Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- Collab
 
 This project is built for academic research purposes and should not be used for real financial trading decisions.
